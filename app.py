@@ -19,7 +19,7 @@ def home():
 @app.route("/father")
 def father():
 
-    name = "Neeraj" 
+    name = "Jack" 
     age = "idontknow" 
 
     return render_template('father.html' , name = name , age = age)
@@ -28,7 +28,7 @@ def father():
 @app.route("/mother")
 def mother():
 
-    name = "Binita" 
+    name = "Jackie" 
     age = "idontknow" 
 
     return render_template('mother.html' , name = name , age = age)
@@ -37,7 +37,7 @@ def mother():
 @app.route("/friend")
 def friend():
 
-    name = "Friend" 
+    name = "Abhirath" 
     age = "Age is just a number" 
 
     return render_template('friend.html' , name = name , age = age)
